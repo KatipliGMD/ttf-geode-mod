@@ -1,17 +1,18 @@
-{
-	"geode": "$GEODE_VERSION",
+{{
+	"geode": "3.0.0-beta.1",
 	"gd": {
-		"win": "2.2081",
-		"android": "2.2081",
-		"mac": "2.2081",
-		"ios": "2.2081"
+		"android": "2.208"
 	},
-	"id": "$MOD_ID",
-	"name": "$MOD_NAME",
-	"version": "$MOD_VERSION",
-	"developer": "$MOD_DEVELOPER",
-	"description": "$MOD_DESCRIPTION",
-	"dependencies": {
-		"geode.node-ids": ">=v1.20.0"
+	"id": "yourname.ttf_font_mod",
+	"version": "v1.0.0",
+	"name": "TTF Font Swapper",
+	"developer": "YourName",
+	"description": "Changes the game font using a .ttf file",
+	"settings": {
+		"font-path": {
+			"name": "Select .ttf File",
+			"type": "file",
+			"default": ""
+		}
 	}
 }
