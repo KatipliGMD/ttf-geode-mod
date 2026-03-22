@@ -3,10 +3,10 @@
 	"gd": {
 		"android": "2.208"
 	},
-	"id": "yourname.ttf_font_mod",
+	"id": "katipli.ttf_font_mod",
 	"version": "v1.0.0",
 	"name": "TTF Font Swapper",
-	"developer": "YourName",
+	"developer": "katipli",
 	"description": "Changes the game font using a .ttf file",
 	"settings": {
 		"font-path": {
